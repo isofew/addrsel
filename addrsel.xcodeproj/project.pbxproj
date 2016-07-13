@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEE78CB31D363E8200A45519 /* addrsel.c in Sources */ = {isa = PBXBuildFile; fileRef = CEE78CB21D363E8200A45519 /* addrsel.c */; };
+		CEE78CCB1D3644EF00A45519 /* resolve.c in Sources */ = {isa = PBXBuildFile; fileRef = CEE78CC91D3644EF00A45519 /* resolve.c */; };
+		CEE78CCC1D3644EF00A45519 /* resolve.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE78CCA1D3644EF00A45519 /* resolve.h */; };
+		CEE78CD31D364C8900A45519 /* control.c in Sources */ = {isa = PBXBuildFile; fileRef = CEE78CD11D364C8900A45519 /* control.c */; };
+		CEE78CD41D364C8900A45519 /* control.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE78CD21D364C8900A45519 /* control.h */; };
+		CEE78CF71D3678AF00A45519 /* addrsel.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE78CF61D3678AF00A45519 /* addrsel.h */; };
+		CEE78CF91D36869F00A45519 /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE78CF81D36869F00A45519 /* common.h */; };
+		CEE78CFC1D36880000A45519 /* ip6addrctl.c in Sources */ = {isa = PBXBuildFile; fileRef = CEE78CFA1D36880000A45519 /* ip6addrctl.c */; };
+		CEE78CFF1D3688F800A45519 /* control.c in Sources */ = {isa = PBXBuildFile; fileRef = CEE78CFD1D3688F800A45519 /* control.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CEE78CBB1D363EBE00A45519 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CEE78CAD1D363E8200A45519 /* addrsel.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = addrsel.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE78CB11D363E8200A45519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE78CB21D363E8200A45519 /* addrsel.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = addrsel.c; sourceTree = "<group>"; };
+		CEE78CBD1D363EBE00A45519 /* ip6addrctl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ip6addrctl; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE78CC91D3644EF00A45519 /* resolve.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = resolve.c; sourceTree = "<group>"; };
+		CEE78CCA1D3644EF00A45519 /* resolve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resolve.h; sourceTree = "<group>"; };
+		CEE78CD11D364C8900A45519 /* control.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = control.c; sourceTree = "<group>"; };
+		CEE78CD21D364C8900A45519 /* control.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = control.h; sourceTree = "<group>"; };
+		CEE78CF61D3678AF00A45519 /* addrsel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addrsel.h; sourceTree = "<group>"; };
+		CEE78CF81D36869F00A45519 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		CEE78CFA1D36880000A45519 /* ip6addrctl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ip6addrctl.c; sourceTree = "<group>"; };
+		CEE78CFB1D36880000A45519 /* ip6addrctl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ip6addrctl.h; sourceTree = "<group>"; };
+		CEE78CFD1D3688F800A45519 /* control.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = control.c; sourceTree = "<group>"; };
+		CEE78CFE1D3688F800A45519 /* control.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = control.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE78CA91D363E8200A45519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE78CBA1D363EBE00A45519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEE78CA31D363E8200A45519 = {
+			isa = PBXGroup;
+			children = (
+				CEE78CF81D36869F00A45519 /* common.h */,
+				CEE78CAF1D363E8200A45519 /* addrsel */,
+				CEE78CBE1D363EBE00A45519 /* ip6addrctl */,
+				CEE78CAE1D363E8200A45519 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE78CAE1D363E8200A45519 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE78CAD1D363E8200A45519 /* addrsel.kext */,
+				CEE78CBD1D363EBE00A45519 /* ip6addrctl */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE78CAF1D363E8200A45519 /* addrsel */ = {
+			isa = PBXGroup;
+			children = (
+				CEE78CB21D363E8200A45519 /* addrsel.c */,
+				CEE78CF61D3678AF00A45519 /* addrsel.h */,
+				CEE78CC91D3644EF00A45519 /* resolve.c */,
+				CEE78CCA1D3644EF00A45519 /* resolve.h */,
+				CEE78CD11D364C8900A45519 /* control.c */,
+				CEE78CD21D364C8900A45519 /* control.h */,
+				CEE78CB01D363E8200A45519 /* Supporting Files */,
+			);
+			path = addrsel;
+			sourceTree = "<group>";
+		};
+		CEE78CB01D363E8200A45519 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEE78CB11D363E8200A45519 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEE78CBE1D363EBE00A45519 /* ip6addrctl */ = {
+			isa = PBXGroup;
+			children = (
+				CEE78CFA1D36880000A45519 /* ip6addrctl.c */,
+				CEE78CFB1D36880000A45519 /* ip6addrctl.h */,
+				CEE78CFD1D3688F800A45519 /* control.c */,
+				CEE78CFE1D3688F800A45519 /* control.h */,
+			);
+			path = ip6addrctl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CEE78CAA1D363E8200A45519 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE78CD41D364C8900A45519 /* control.h in Headers */,
+				CEE78CF91D36869F00A45519 /* common.h in Headers */,
+				CEE78CCC1D3644EF00A45519 /* resolve.h in Headers */,
+				CEE78CF71D3678AF00A45519 /* addrsel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CEE78CAC1D363E8200A45519 /* addrsel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE78CB61D363E8200A45519 /* Build configuration list for PBXNativeTarget "addrsel" */;
+			buildPhases = (
+				CEE78CA81D363E8200A45519 /* Sources */,
+				CEE78CA91D363E8200A45519 /* Frameworks */,
+				CEE78CAA1D363E8200A45519 /* Headers */,
+				CEE78CAB1D363E8200A45519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = addrsel;
+			productName = addrsel;
+			productReference = CEE78CAD1D363E8200A45519 /* addrsel.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+		CEE78CBC1D363EBE00A45519 /* ip6addrctl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE78CC11D363EBE00A45519 /* Build configuration list for PBXNativeTarget "ip6addrctl" */;
+			buildPhases = (
+				CEE78CB91D363EBE00A45519 /* Sources */,
+				CEE78CBA1D363EBE00A45519 /* Frameworks */,
+				CEE78CBB1D363EBE00A45519 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ip6addrctl;
+			productName = ip6addrctl;
+			productReference = CEE78CBD1D363EBE00A45519 /* ip6addrctl */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE78CA41D363E8200A45519 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = isofew;
+				TargetAttributes = {
+					CEE78CAC1D363E8200A45519 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = EPF972E3BL;
+					};
+					CEE78CBC1D363EBE00A45519 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = CEE78CA71D363E8200A45519 /* Build configuration list for PBXProject "addrsel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEE78CA31D363E8200A45519;
+			productRefGroup = CEE78CAE1D363E8200A45519 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEE78CAC1D363E8200A45519 /* addrsel */,
+				CEE78CBC1D363EBE00A45519 /* ip6addrctl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEE78CAB1D363E8200A45519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE78CA81D363E8200A45519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE78CCB1D3644EF00A45519 /* resolve.c in Sources */,
+				CEE78CB31D363E8200A45519 /* addrsel.c in Sources */,
+				CEE78CD31D364C8900A45519 /* control.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE78CB91D363EBE00A45519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE78CFC1D36880000A45519 /* ip6addrctl.c in Sources */,
+				CEE78CFF1D3688F800A45519 /* control.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CEE78CB41D363E8200A45519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CEE78CB51D363E8200A45519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CEE78CB71D363E8200A45519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer: Zhixing Wang (32Z6FQ77EM)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer: Zhixing Wang (32Z6FQ77EM)";
+				INFOPLIST_FILE = addrsel/Info.plist;
+				MODULE_NAME = isofew.addrsel;
+				MODULE_START = addrsel_start;
+				MODULE_STOP = addrsel_stop;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		CEE78CB81D363E8200A45519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer: Zhixing Wang (32Z6FQ77EM)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer: Zhixing Wang (32Z6FQ77EM)";
+				INFOPLIST_FILE = addrsel/Info.plist;
+				MODULE_NAME = isofew.addrsel;
+				MODULE_START = addrsel_start;
+				MODULE_STOP = addrsel_stop;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+		CEE78CC21D363EBE00A45519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer: Zhixing Wang (32Z6FQ77EM)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEE78CC31D363EBE00A45519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer: Zhixing Wang (32Z6FQ77EM)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE78CA71D363E8200A45519 /* Build configuration list for PBXProject "addrsel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE78CB41D363E8200A45519 /* Debug */,
+				CEE78CB51D363E8200A45519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE78CB61D363E8200A45519 /* Build configuration list for PBXNativeTarget "addrsel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE78CB71D363E8200A45519 /* Debug */,
+				CEE78CB81D363E8200A45519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE78CC11D363EBE00A45519 /* Build configuration list for PBXNativeTarget "ip6addrctl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE78CC21D363EBE00A45519 /* Debug */,
+				CEE78CC31D363EBE00A45519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEE78CA41D363E8200A45519 /* Project object */;
+}
